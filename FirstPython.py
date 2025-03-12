@@ -1,110 +1,86 @@
-Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> print("hello, World!")
-hello, World!
->>> x=1
->>> if x>0
-SyntaxError: expected ':'
->>> if x>0:
-...     print("These are two comments")
-... 
-...     
-These are two comments
->>> print("statement1")
-statement1
->>> print("statement1");print("statement2")
-statement1
-statement2
->>> x=1;
->>> if x>0:
-...     print("statement1")
-...     print("statement2")
-... 
-...     
-statement1
-statement2
->>> a=123
->>> type(a)
-<class 'int'>
->>> a=0.342
->>> type(a)
-<class 'float'>
->>> x= complex(1,2)
->>> type(x)
-<class 'complex'>
->>> print(x)
-(1+2j)
->>> b=True
->>> type(b)
-<class 'bool'>
->>> if b:
-...     print("true")
-... 
-...     
-true
->>> print("This is a (\\) mark")
-This is a (\) mark
->>> print("This is Tab  /t
-...       
-SyntaxError: unterminated string literal (detected at line 1)
->>> print("This is Tab /t key")
-...       
-This is Tab /t key
->>> print("This is Tab \t key")
-...       
-This is Tab 	 key
->>> print("these are \'single quotes\'")
-...       
-these are 'single quotes'
->>> print("these are \"ouble quotes\"")
-...       
-these are "ouble quotes"
+print("hello, World!")
+#hello, World!
+x=1
+#if x>0
+#SyntaxError: expected ':'
+if x>0:
+   print("These are two comments")
+#These are two comments
+print("statement1")
+#statement1
+print("statement1");print("statement2")
+#statement1
+#statement2
+x=1
+if x>0:
+   print("statement1")
+   print("statement2")     
+#statement1
+#statement2
+a=123
+type(a)
+#<class 'int'>
+a=0.342
+type(a)
+#<class 'float'>
+x= complex(1,2)
+type(x)
+#<class 'complex'>
+print(x)
+#(1+2j)
+b=True
+type(b)
+#<class 'bool'>
+if b:
+ print("true")
+    
+#true
+print("This is a (\\) mark")
+#This is a (\) mark
+print("This is Tab /t key")     
+#This is Tab /t key
+print("This is Tab \t key")       
+#This is Tab 	 key
+print("these are \'single quotes\'")      
+#these are 'single quotes'
+print("these are \"ouble quotes\"")
+       
+#these are "ouble quotes"
 print("these are \"double quotes\"")
       
-these are "double quotes"
+#these are "double quotes"
 print("this is a new line \nNew line")
       
-this is a new line 
-New line
+#this is a new line 
+#New line
 string = "abcdef"
       
 print(string[0])
       
-a
+#a
 print(string[-1])
       
-f
-list1=[12,7,abc]
-      
-Traceback (most recent call last):
-  File "<pyshell#36>", line 1, in <module>
-    list1=[12,7,abc]
-NameError: name 'abc' is not defined. Did you mean: 'abs'? Or did you forget to import 'abc'?
+#f
+
 list1=[12,7,"abc"]
       
 print(list1)
       
-[12, 7, 'abc']
+#[12, 7, 'abc']
 print(list1[0],list1[-1])
       
-12 abc
+#12 abc
 list2=[1,2,3,4,5,6]
       
 print(list2[0:2])
       
-[1, 2]
-print(list2[0,-2])
-      
-Traceback (most recent call last):
-  File "<pyshell#42>", line 1, in <module>
-    print(list2[0,-2])
-TypeError: list indices must be integers or slices, not tuple
+#[1, 2]
 print(list2[0:-2])
       
-[1, 2, 3, 4]
+#[1, 2, 3, 4]
 print(list2[:3])
       
-[1, 2, 3]
+#[1, 2, 3]
 print(list2[:])
       
-[1, 2, 3, 4, 5, 6]
+#[1, 2, 3, 4, 5, 6]
