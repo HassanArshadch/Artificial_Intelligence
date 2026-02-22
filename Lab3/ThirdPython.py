@@ -1,13 +1,15 @@
 
 import random
-# def temperatureConverter(temp,unit):
-#    result=0
-#    if(unit=='c'):
-#       result=((temp)*9/5)+32
-#       print(str(result) +'f')
-#    elif(unit=='f'):
-#      result=(temp-32)*5/9
-#      print(str(result) +'c') 
+
+
+def temperatureConverter(temp,unit):
+   result=0
+   if(unit=='c'):
+      result=((temp)*9/5)+32
+      print(str(result) +'f')
+   elif(unit=='f'):
+     result=(temp-32)*5/9
+     print(str(result) +'c') 
 
 # temperatureConverter(60,'c')
 # temperatureConverter(45,'f')
